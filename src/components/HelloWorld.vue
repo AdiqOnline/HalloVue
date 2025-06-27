@@ -4,10 +4,6 @@ defineProps({
     type: String,
     required: true,
   },
-<<<<<<< HEAD
-  
-=======
->>>>>>> 3873f5e066ddc806af6e079693c83d43c414bc86
 })
 </script>
 
