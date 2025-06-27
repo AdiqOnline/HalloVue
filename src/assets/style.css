@@ -5,83 +5,81 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
     font-size: 18px;
-  
+    align-items: center;
 }
-body{
-    margin: 1vh;
+.data{
+  width: 100%;
+  border-radius: 3px;
+  height: 92vh;
+  overflow: auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top {
+  border-radius: 5px;
+  align-items: center;
+  padding: 15px;
 }
 .body{
     margin-top: 5px;
 }
-
-.data{
-    width: 100%;
-    border-radius: 3px;
-    height: 92vh;
-    padding: 10px;
-    overflow: auto;
-
+.wrapper{
+  display: flex;
+  border-radius: 5px;
+  background-color: #eee;
+  align-items: center;
+  justify-content: center;
+  max-width: 1680px;
 }
-
-
 #root {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-  }
-  .box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid grey;
-    border-radius: 5px;
-
-  }
-.img-box{
-    width: 100%;
-    height: 290px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }
-.images{
-    max-height: 90%;
-    max-width: 90%;
+.logo{
+    height: 100%;
+    width: 100%;
     object-fit: cover;
-    object-position: center;
-}
-  .buttom{
-    margin-top: 20px;
-    width: 100%;
-    text-align: center;
+    border-radius: 5px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 110px;
-  }
+}
+.box .bottom{
+  margin-top: 3px;
+  width: 100%;
+  text-align: fixed;
+  flex-direction: column;
+  justify-content: baseline;
+  height: 110px;
+  padding: 1px;
+  /*background-color:#a22840;*/
+}
   h1 {
     font-size: 16px;
     color: orangered;
-  }
+}
   button {
     width: 50%;
     position: relative;
     border: none;
     border-radius: 5px;
     background-color: rgb(20 150 124);
-    padding: 7px 25px;
+    padding: 10px 25px;
     cursor: pointer;
     color: white;
-    }
-a{
+  }
+  a{
     color: white;
+    text-decoration: solid;
+    font-size: 30px;
 }
   button:hover {
     background-color: #a22840;
+  }
+  a:hover{
+  color: rgb(74, 253, 223);
   }
   ::-webkit-scrollbar{
     display: none;
@@ -91,17 +89,15 @@ a{
 @media screen and (max-width: 500px) {
 
 #root {
-        width: 100%;
-        display: contents;
-    }
-.box {
-        margin-bottom: 10px;
-    }
-.data .top{
- display: flex;
- flex-direction: row;
- justify-content: space-between;
-
+  width: 100%;
+  display: contents;
 }
-
+.box {
+  margin-bottom: 10px;
+}
+.data .top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
   }

@@ -17,7 +17,7 @@ import IconInnova from './icons/IconInnova.vue';
 </script>
 
 <template>
-    <div class="body">
+  <div class="body">
     <div id="root">
       <WelcomeItem nama="Paket Tour Nusa Penida - Sisi Timur + Snorkeling" harga="975.000" >
         <template #images>
@@ -98,8 +98,8 @@ import IconInnova from './icons/IconInnova.vue';
           </template>
           <a href="http://hallobali.id/id/share/26545/sewa-toyota-innova-dengan-sopir-dan-bbm">Detail</a>
         </WelcomeItem>
-      </div>
     </div>
+  </div>
 
 </template>
 <style scoped>
