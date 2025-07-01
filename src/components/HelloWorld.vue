@@ -22,11 +22,13 @@ defineProps({
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
-  position: relative;
+  /*position: relative;*/
+  color: orangered;
 }
 h3 {
   font-size: 1.1rem ;
   color: rgb(0, 0, 0);
+  align-items: justify;
 }
 .greetings h1,
 .greetings h3 {

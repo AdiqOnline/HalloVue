@@ -46,27 +46,14 @@
     border-radius: 5px;
     display: flex;
 }
-.box .bottom{
-  margin-top: 3px;
-  width: 100%;
-  text-align: fixed;
-  flex-direction: column;
-  justify-content: baseline;
-  height: 110px;
-  padding: 1px;
-  /*background-color:#a22840;*/
-}
-  h1 {
-    font-size: 16px;
-    color: orangered;
-}
+
   button {
     width: 50%;
     position: relative;
     border: none;
     border-radius: 5px;
     background-color: rgb(20 150 124);
-    padding: 10px 25px;
+    padding: 5px 25px;
     cursor: pointer;
     color: white;
   }
@@ -78,9 +65,7 @@
   button:hover {
     background-color: #a22840;
   }
-  a:hover{
-  color: rgb(74, 253, 223);
-  }
+
   ::-webkit-scrollbar{
     display: none;
   }

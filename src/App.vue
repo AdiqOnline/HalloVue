@@ -7,7 +7,6 @@ import TheWelcome from './components/TheWelcome.vue'
 
   <header>
     <img alt="logo" class="logohead" src="./assets/logo aksara bali-02.png" width="270" height="200" />
-    <div class="judul">HalloBali</div>
  </header>
   <div class="data">
     <div class="wrapper">
@@ -43,9 +42,6 @@ header {
   max-width: 100%;
   width: 180px;
   height: 100px;
-}
-header .judul{
-  font-size: 3rem;
 }
 
 @media (min-width: 1024px) {
