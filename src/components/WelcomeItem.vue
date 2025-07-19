@@ -14,8 +14,6 @@ defineProps({
 <template>
   <div class='box'>
     <slot name='images'></slot>
-    <!-- <div class='img-box'>
-    </div> -->
     <div class= 'bottom'>
       <p>{{ nama }}</p>
       <br/>
@@ -48,6 +46,7 @@ defineProps({
 }
 p {
   font-size: 1rem;
+  color: black;
 }
 p strong{
   font-size: 1.8rem;

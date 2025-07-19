@@ -43,7 +43,9 @@ header {
   width: 180px;
   height: 100px;
 }
-
+.data{
+  background-color: white;
+}
 @media (min-width: 1024px) {
   header {
     display: flex;
